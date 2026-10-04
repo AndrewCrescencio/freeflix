@@ -18,6 +18,12 @@ logs
 .fleet
 .idea
 
+# Test artifacts
+test-results/
+
+# Generated types
+app/types/global.d.ts
+
 # Local env files
 .env
 .env.*
