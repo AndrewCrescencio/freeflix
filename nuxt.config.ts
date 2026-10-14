@@ -25,7 +25,7 @@ export default defineNuxtConfig({
   typescript: { strict: true },
   routeRules: {
     '/': { prerender: true },
-    '/privacidade': { prerender: true },
+    '/privacidade': { redirect: '/' },
     '/termos': { prerender: true }
   },
   sitemap: {
