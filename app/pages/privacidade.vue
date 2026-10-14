@@ -4,7 +4,6 @@ import { useHead, useSeoMeta } from '#imports'
 
 const title = 'Política de Privacidade — FreeFlix'
 const description = 'Saiba como coletamos, usamos e protegemos seus dados pessoais no FreeFlix.'
-
 useSeoMeta({
   title,
   description,
